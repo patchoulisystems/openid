@@ -73,7 +73,7 @@ def basePage():
                     params = {
                         'code': session['code'],
                         'client_id': CLIENT_ID,
-                        'client_secret': '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',
+                        'client_secret': CLIENT_SECRET,
                         'redirect_uri': REDIRECT_URI,
                         'grant_type': 'authorization_code'
                     }
